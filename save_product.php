@@ -83,7 +83,7 @@ if ($result) {
 } else {
     echo json_encode([
         "status"  => "error",
-        "message" => "Failed to save product: " . mysqli_error($conn)
+        "message" => "Failed to save product in DB: " . mysqli_error($conn)
     ]);
 }
 
