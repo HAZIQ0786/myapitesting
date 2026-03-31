@@ -43,7 +43,7 @@ if (mysqli_num_rows($result) > 0) {
 } else {
     echo json_encode([
         "status" => "error",
-        "message" => "No products found"
+        "mess" => "No products found"
     ]);
 }
 
